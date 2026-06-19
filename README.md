@@ -1,18 +1,33 @@
 # ProteusTyper
 
-Projeto de Bioinformática para identificação automática do locus do antigénio O em genomas de Proteus.
+ProteusTyper is a bioinformatics pipeline developed to identify, extract, and analyse O-antigen loci in *Proteus* genomes.
 
-## Objetivo
-Desenvolver um algoritmo para detetar e classificar o locus O com base nos genes fronteira secB e cpxA.
+## Features
 
-## Metodologia
-- Identificação de genes (BLAST / HMMER)
-- Extração do locus
-- Classificação por similaridade (>95%)
-- Comparação com base de dados
+- Species identification
+- Automatic extraction of the O locus using the *secB* and *cpxA* boundary genes
+- Gene annotation with Prokka
+- Presence/absence matrix generation
+- Heatmap construction
+- Hierarchical clustering
+- Comparison with a reference database
+- BLAST-based validation
 
-## Implementação
-Protótipo a desenvolver em Python (Google Colab)
+## Input
 
-## Autora
-Carina Ferreira
+- GenBank files (`.gbff`)
+
+## Output
+
+- Extracted O loci
+- Annotated genes
+- Presence/absence matrices
+- Heatmaps
+- Clustering dendrograms
+- Final typing results
+
+## Author
+
+**Carina Ferreira**  
+Master's Degree in Bioinformatics  
+University of Minho
